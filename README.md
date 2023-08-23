@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jgome284/Classifying-Movie-Reviews">
-    <img src="images\Python-to-Classify-Reviews.webp" alt="Logo" width="1030" height="624">
+    <img src="images\Python-to-Classify-Reviews.webp" alt="Logo">
   </a>
 
   <h3 align="center">Foreword</h3>
@@ -27,6 +27,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#access-data">Access Data</a></li>
         <li><a href="#environment">Installation</a></li>
         <li><a href="#dependencies">Dependencies</a></li>
       </ul>
