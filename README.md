@@ -68,14 +68,14 @@ Virtual environments are a great way to keep your system-wide Python installatio
 
  You can create a virtual environment named my_env to manage this projects dependencies, for example. To do so, run the following command:
 ```sh
-python3 -m venv my_env
+python -m venv my_env
 ```
 
 **Activate**
 
-To activate the virtual environment, run the following command:
+To activate the virtual environment on Windows, run the following command:
 ```sh
-source my_env/bin/activate
+source my_env/Scripts/activate
 ```
 
 **Deactivate**
@@ -91,6 +91,11 @@ Python version 3.9.6 was used to run this analysis. To install additional depend
 pip install -r requirements.txt
 ```
 Best practice is to install these dependencies into an activated virtual environment. ```pip``` should be smart enough to handle dependencies between all packages required during installation.
+
+### Download Spacy Model
+```sh
+python -m spacy download en_core_web_sm
+```
 
 <!-- LICENSE -->
 ## License
